@@ -1,0 +1,16 @@
+{
+  "name": "studio3svg",
+  "version": "0.1.0",
+  "description": "Convert Silhouette Studio .studio3 files to SVG without Silhouette Studio",
+  "type": "module",
+  "bin": { "studio3svg": "bin/studio3svg.js" },
+  "exports": { ".": "./src/studio3.js", "./svg": "./src/svg.js" },
+  "files": ["bin", "src", "README.md", "SPEC.md", "CHANGELOG.md", "LICENSE"],
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  },
+  "keywords": ["silhouette", "studio3", "silhouette-studio", "svg", "cameo", "cutting", "converter"],
+  "repository": { "type": "git", "url": "git+https://github.com/zaydmulani09/studio3svg.git" },
+  "license": "MIT"
+}
